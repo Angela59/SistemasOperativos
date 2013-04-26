@@ -24,5 +24,8 @@ public class ClasePadre {
     public String copiar (String copiar){
         return "Se ha copiado el sistema operativo";        
     }
+    public String pegar (String pegar){
+        return "Se ha pegado el sistema operativo";
+    }
     
 }
