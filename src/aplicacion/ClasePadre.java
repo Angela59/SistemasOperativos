@@ -28,4 +28,5 @@ public abstract class ClasePadre {
         return "Se ha pegado el sistema operativo";
     }
     public abstract String buscarVirus();
+    public abstract String pantallazoAzul();
 }
