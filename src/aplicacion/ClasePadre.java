@@ -8,7 +8,7 @@ package aplicacion;
  *
  * @author DAM
  */
-public class ClasePadre {
+public abstract class ClasePadre {
     String version, ram, bits;
 
     public ClasePadre(String version, String ram, String bits) {
@@ -27,5 +27,5 @@ public class ClasePadre {
     public String pegar (String pegar){
         return "Se ha pegado el sistema operativo";
     }
-    
+    public abstract String buscarVirus();
 }
